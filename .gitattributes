@@ -1,0 +1,6 @@
+# Встановити LF для всіх текстових файлів
+* text=auto eol=lf
+
+# Для Windows специфічних файлів (якщо потрібно CRLF)
+*.bat eol=crlf
+*.cmd eol=crlf
